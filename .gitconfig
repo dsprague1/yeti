@@ -8,3 +8,6 @@
   llog = log --date=local
 [rerere]
   enabled = true
+[user]
+	email = tadnicol@icloud.com
+	name = Tad Nicol

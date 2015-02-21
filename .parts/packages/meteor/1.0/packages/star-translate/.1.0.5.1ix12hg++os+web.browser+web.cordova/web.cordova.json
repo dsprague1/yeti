@@ -1,0 +1,27 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "StarTranslator",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "dev-bundle-fetcher"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/star-translate.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/star-translate.js",
+      "sourceMap": "web.cordova/packages/star-translate.js.map"
+    }
+  ]
+}

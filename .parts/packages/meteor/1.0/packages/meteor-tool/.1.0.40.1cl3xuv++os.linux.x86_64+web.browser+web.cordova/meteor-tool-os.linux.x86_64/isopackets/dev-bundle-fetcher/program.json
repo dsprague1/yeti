@@ -1,0 +1,29 @@
+{
+  "format": "javascript-image-pre1",
+  "arch": "os",
+  "load": [
+    {
+      "sourceMap": "packages/underscore.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/underscore.js"
+    },
+    {
+      "sourceMap": "packages/meteor.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/meteor.js"
+    },
+    {
+      "sourceMap": "packages/dev-bundle-fetcher.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/dev-bundle-fetcher.js",
+      "assets": {
+        "dev-bundle": "assets/packages/dev-bundle-fetcher/dev-bundle"
+      }
+    },
+    {
+      "sourceMap": "packages/isopacket-dev-bundle-fetcher_plugin.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/isopacket-dev-bundle-fetcher_plugin.js"
+    }
+  ]
+}

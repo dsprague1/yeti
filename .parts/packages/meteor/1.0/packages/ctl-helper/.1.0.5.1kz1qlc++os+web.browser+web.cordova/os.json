@@ -1,0 +1,43 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "Ctl",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "logging"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "ddp"
+    },
+    {
+      "package": "mongo"
+    },
+    {
+      "package": "follower-livedata"
+    },
+    {
+      "package": "application-configuration"
+    }
+  ],
+  "node_modules": "npm/node_modules",
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/ctl-helper.js",
+      "length": 26781,
+      "offset": 0,
+      "servePath": "/packages/ctl-helper.js",
+      "sourceMap": "os/packages/ctl-helper.js.map"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["dev-bundle-fetcher/dev-bundle.js"],"names":[],"mappings":";;;;;;;;AAAA,oB;AACA,uB;AACA,wC;AACA,G;AACA,E","file":"/packages/dev-bundle-fetcher.js","sourcesContent":["DevBundleFetcher = {\n  script: function () {\n    return Assets.getText(\"dev-bundle\");\n  }\n};\n"]}

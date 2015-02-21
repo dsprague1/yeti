@@ -1,0 +1,19 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/ctl-helper.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/ctl-helper.js",
+      "sourceMap": "web.cordova/packages/ctl-helper.js.map"
+    }
+  ]
+}

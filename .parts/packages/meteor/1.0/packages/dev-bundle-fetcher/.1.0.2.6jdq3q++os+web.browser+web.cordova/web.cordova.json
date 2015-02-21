@@ -1,0 +1,19 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/dev-bundle-fetcher.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/dev-bundle-fetcher.js",
+      "sourceMap": "web.cordova/packages/dev-bundle-fetcher.js.map"
+    }
+  ]
+}

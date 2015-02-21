@@ -1,0 +1,28 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "StarTranslator",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "dev-bundle-fetcher"
+    }
+  ],
+  "node_modules": "npm/node_modules",
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/star-translate.js",
+      "length": 10456,
+      "offset": 0,
+      "servePath": "/packages/star-translate.js",
+      "sourceMap": "os/packages/star-translate.js.map"
+    }
+  ]
+}

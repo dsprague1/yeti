@@ -1,0 +1,36 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "Follower",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "logging"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "ddp"
+    },
+    {
+      "package": "ejson"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/follower-livedata.js",
+      "length": 25852,
+      "offset": 0,
+      "servePath": "/packages/follower-livedata.js",
+      "sourceMap": "os/packages/follower-livedata.js.map"
+    }
+  ]
+}
