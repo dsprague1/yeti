@@ -1,0 +1,25 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "json"
+    },
+    {
+      "package": "jquery"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/jquery-history.js",
+      "length": 331304,
+      "offset": 0,
+      "servePath": "/packages/jquery-history.js",
+      "sourceMap": "web.cordova/packages/jquery-history.js.map"
+    }
+  ]
+}

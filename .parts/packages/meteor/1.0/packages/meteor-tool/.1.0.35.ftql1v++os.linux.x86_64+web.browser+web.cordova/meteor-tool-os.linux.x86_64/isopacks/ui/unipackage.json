@@ -1,0 +1,23 @@
+{
+  "name": "ui",
+  "summary": "Deprecated: Use the 'blaze' package",
+  "version": "1.0.4+5ed5de4565aace77439c49e4548f56dc11b894f4",
+  "earliestCompatibleVersion": "1.0.0",
+  "isTest": false,
+  "plugins": [],
+  "unibuilds": [
+    {
+      "arch": "os",
+      "path": "os.json"
+    },
+    {
+      "arch": "web.browser",
+      "path": "web.browser.json"
+    },
+    {
+      "arch": "web.cordova",
+      "path": "web.cordova.json"
+    }
+  ],
+  "format": "unipackage-pre2"
+}

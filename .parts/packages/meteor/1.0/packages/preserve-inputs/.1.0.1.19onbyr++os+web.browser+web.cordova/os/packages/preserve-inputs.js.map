@@ -1,0 +1,1 @@
+{"version":3,"file":"/packages/preserve-inputs.js","sources":["preserve-inputs/deprecated.js"],"names":[],"mappings":";;;;;;;;AAAA,gF","sourcesContent":["console.log(\"The 'preserve-inputs' package is now unnecessary and deprecated.\");\n"]}

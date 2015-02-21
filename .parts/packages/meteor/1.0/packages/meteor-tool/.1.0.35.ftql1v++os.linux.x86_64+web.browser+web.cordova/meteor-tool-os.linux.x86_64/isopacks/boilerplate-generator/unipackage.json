@@ -1,0 +1,23 @@
+{
+  "name": "boilerplate-generator",
+  "summary": "Generates the boilerplate html from program's manifest",
+  "version": "1.0.1+87dbe03b9c7c8e8d68324b849114556df5bb0ce6",
+  "earliestCompatibleVersion": "1.0.0",
+  "isTest": false,
+  "plugins": [],
+  "unibuilds": [
+    {
+      "arch": "os",
+      "path": "os.json"
+    },
+    {
+      "arch": "web.browser",
+      "path": "web.browser.json"
+    },
+    {
+      "arch": "web.cordova",
+      "path": "web.cordova.json"
+    }
+  ],
+  "format": "unipackage-pre2"
+}

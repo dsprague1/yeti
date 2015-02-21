@@ -1,0 +1,24 @@
+{
+  "isopack-1": {
+    "name": "follower-livedata",
+    "summary": "Maintain a connection to the leader of an election set",
+    "version": "1.0.2+f93ffac20d031f47b7dd19205cfadbdc00e606b6",
+    "earliestCompatibleVersion": "1.0.0",
+    "isTest": false,
+    "builds": [
+      {
+        "arch": "os",
+        "path": "os.json"
+      },
+      {
+        "arch": "web.browser",
+        "path": "web.browser.json"
+      },
+      {
+        "arch": "web.cordova",
+        "path": "web.cordova.json"
+      }
+    ],
+    "plugins": []
+  }
+}

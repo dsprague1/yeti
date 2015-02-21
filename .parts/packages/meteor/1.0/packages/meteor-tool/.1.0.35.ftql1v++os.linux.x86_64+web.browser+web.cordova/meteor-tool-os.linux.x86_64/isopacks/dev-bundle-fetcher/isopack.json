@@ -1,0 +1,24 @@
+{
+  "isopack-1": {
+    "name": "dev-bundle-fetcher",
+    "summary": "A shell script for downloading the Meteor dev bundle",
+    "version": "1.0.1+427ea271045eae1dad6efa6eaee81cec1704cb5c",
+    "earliestCompatibleVersion": "1.0.0",
+    "isTest": false,
+    "builds": [
+      {
+        "arch": "os",
+        "path": "os.json"
+      },
+      {
+        "arch": "web.browser",
+        "path": "web.browser.json"
+      },
+      {
+        "arch": "web.cordova",
+        "path": "web.cordova.json"
+      }
+    ],
+    "plugins": []
+  }
+}

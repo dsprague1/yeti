@@ -1,0 +1,23 @@
+{
+  "name": "jquery",
+  "summary": "Manipulate the DOM using CSS selectors",
+  "version": "1.0.1+4710c5c392502ebaae5c81f982b182ddc657edcb",
+  "earliestCompatibleVersion": "1.0.0",
+  "isTest": false,
+  "plugins": [],
+  "unibuilds": [
+    {
+      "arch": "os",
+      "path": "os.json"
+    },
+    {
+      "arch": "web.browser",
+      "path": "web.browser.json"
+    },
+    {
+      "arch": "web.cordova",
+      "path": "web.cordova.json"
+    }
+  ],
+  "format": "unipackage-pre2"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "minifiers",
+  "summary": "JavaScript and CSS minifiers",
+  "version": "1.1.2+37fd32c19e0d48ceef95415b4629aaa545f27155",
+  "earliestCompatibleVersion": "1.0.0",
+  "isTest": false,
+  "plugins": [],
+  "unibuilds": [
+    {
+      "arch": "os",
+      "path": "os.json"
+    },
+    {
+      "arch": "web.browser",
+      "path": "web.browser.json"
+    },
+    {
+      "arch": "web.cordova",
+      "path": "web.cordova.json"
+    }
+  ],
+  "format": "unipackage-pre2"
+}

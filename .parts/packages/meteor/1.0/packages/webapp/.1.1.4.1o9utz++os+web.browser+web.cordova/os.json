@@ -1,0 +1,65 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "WebApp",
+      "export": true
+    },
+    {
+      "name": "main",
+      "export": true
+    },
+    {
+      "name": "WebAppInternals",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "logging"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "routepolicy"
+    },
+    {
+      "package": "boilerplate-generator"
+    },
+    {
+      "package": "spacebars"
+    },
+    {
+      "package": "htmljs"
+    },
+    {
+      "package": "blaze"
+    },
+    {
+      "package": "webapp-hashing"
+    },
+    {
+      "package": "application-configuration",
+      "unordered": true
+    },
+    {
+      "package": "follower-livedata",
+      "unordered": true
+    }
+  ],
+  "node_modules": "npm/node_modules",
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/webapp.js",
+      "length": 116745,
+      "offset": 0,
+      "servePath": "/packages/webapp.js",
+      "sourceMap": "os/packages/webapp.js.map"
+    }
+  ]
+}

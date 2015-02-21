@@ -1,0 +1,23 @@
+{
+  "name": "spacebars-compiler",
+  "summary": "Compiler for Spacebars template language",
+  "version": "1.0.3+e549f04e81e5f546708b791344686d27a6c3604c",
+  "earliestCompatibleVersion": "1.0.0",
+  "isTest": false,
+  "plugins": [],
+  "unibuilds": [
+    {
+      "arch": "os",
+      "path": "os.json"
+    },
+    {
+      "arch": "web.browser",
+      "path": "web.browser.json"
+    },
+    {
+      "arch": "web.cordova",
+      "path": "web.cordova.json"
+    }
+  ],
+  "format": "unipackage-pre2"
+}

@@ -1,0 +1,24 @@
+{
+  "isopack-1": {
+    "name": "js-analyze",
+    "summary": "JavaScript code analysis for Meteor",
+    "version": "1.0.3+d76e04a7add9c4cf1e5a9532382221c949e6ad24",
+    "earliestCompatibleVersion": "1.0.0",
+    "isTest": false,
+    "builds": [
+      {
+        "arch": "os",
+        "path": "os.json"
+      },
+      {
+        "arch": "web.browser",
+        "path": "web.browser.json"
+      },
+      {
+        "arch": "web.cordova",
+        "path": "web.cordova.json"
+      }
+    ],
+    "plugins": []
+  }
+}

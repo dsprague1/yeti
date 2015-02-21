@@ -1,0 +1,24 @@
+{
+  "isopack-1": {
+    "name": "package-version-parser",
+    "summary": "Parses Meteor Smart Package version string",
+    "version": "2.0.2+b0a22290e1d1bf520ed695e862eba4de8f4f17c1",
+    "earliestCompatibleVersion": "2.0.0",
+    "isTest": false,
+    "builds": [
+      {
+        "arch": "os",
+        "path": "os.json"
+      },
+      {
+        "arch": "web.browser",
+        "path": "web.browser.json"
+      },
+      {
+        "arch": "web.cordova",
+        "path": "web.cordova.json"
+      }
+    ],
+    "plugins": []
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isopack-1": {
+    "name": "templating",
+    "summary": "Allows templates to be defined in .html files",
+    "version": "1.0.9+b9c2a5132c9af8d45ce2df3a14be9979a00a45d6",
+    "earliestCompatibleVersion": "1.0.0",
+    "isTest": false,
+    "builds": [
+      {
+        "arch": "os",
+        "path": "os.json"
+      },
+      {
+        "arch": "web.browser",
+        "path": "web.browser.json"
+      },
+      {
+        "arch": "web.cordova",
+        "path": "web.cordova.json"
+      }
+    ],
+    "plugins": [
+      {
+        "name": "compileTemplates",
+        "arch": "os",
+        "path": "plugin.compileTemplates.os/program.json"
+      }
+    ]
+  }
+}

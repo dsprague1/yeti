@@ -1,0 +1,23 @@
+{
+  "name": "geojson-utils",
+  "summary": "GeoJSON utility functions (from https://github.com/maxogden/geojson-js-utils)",
+  "version": "1.0.1+c41247aa80f5ffad84ffec86a6ecd31ae91ce97d",
+  "earliestCompatibleVersion": "1.0.0",
+  "isTest": false,
+  "plugins": [],
+  "unibuilds": [
+    {
+      "arch": "os",
+      "path": "os.json"
+    },
+    {
+      "arch": "web.browser",
+      "path": "web.browser.json"
+    },
+    {
+      "arch": "web.cordova",
+      "path": "web.cordova.json"
+    }
+  ],
+  "format": "unipackage-pre2"
+}

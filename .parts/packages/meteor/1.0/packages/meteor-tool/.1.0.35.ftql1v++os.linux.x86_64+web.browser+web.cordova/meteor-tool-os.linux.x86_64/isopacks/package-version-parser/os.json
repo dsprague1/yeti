@@ -1,0 +1,28 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "PackageVersion",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    }
+  ],
+  "node_modules": "npm/node_modules",
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/package-version-parser.js",
+      "length": 38236,
+      "offset": 0,
+      "servePath": "/packages/package-version-parser.js",
+      "sourceMap": "os/packages/package-version-parser.js.map"
+    }
+  ]
+}

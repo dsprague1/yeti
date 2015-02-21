@@ -1,0 +1,90 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "reload"
+    },
+    {
+      "package": "autoupdate"
+    }
+  ],
+  "implies": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "webapp"
+    },
+    {
+      "package": "logging"
+    },
+    {
+      "package": "tracker"
+    },
+    {
+      "package": "deps"
+    },
+    {
+      "package": "session"
+    },
+    {
+      "package": "ddp"
+    },
+    {
+      "package": "livedata"
+    },
+    {
+      "package": "mongo"
+    },
+    {
+      "package": "blaze"
+    },
+    {
+      "package": "ui"
+    },
+    {
+      "package": "spacebars"
+    },
+    {
+      "package": "templating"
+    },
+    {
+      "package": "check"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "jquery"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "ejson"
+    },
+    {
+      "package": "fastclick"
+    },
+    {
+      "package": "mobile-status-bar"
+    },
+    {
+      "package": "launch-screen"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/meteor-platform.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/meteor-platform.js",
+      "sourceMap": "web.cordova/packages/meteor-platform.js.map"
+    }
+  ]
+}

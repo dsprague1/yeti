@@ -1,0 +1,32 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "DevBundleFetcher",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "resources": [
+    {
+      "type": "asset",
+      "file": "os/packages/dev-bundle-fetcher/dev-bundle",
+      "length": 2730,
+      "offset": 0,
+      "servePath": "/packages/dev-bundle-fetcher/dev-bundle",
+      "path": "dev-bundle"
+    },
+    {
+      "type": "prelink",
+      "file": "os/packages/dev-bundle-fetcher.js",
+      "length": 980,
+      "offset": 0,
+      "servePath": "/packages/dev-bundle-fetcher.js",
+      "sourceMap": "os/packages/dev-bundle-fetcher.js.map"
+    }
+  ]
+}

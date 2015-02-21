@@ -1,0 +1,38 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "Template",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "blaze"
+    }
+  ],
+  "implies": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "blaze"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/templating.js",
+      "length": 10386,
+      "offset": 0,
+      "servePath": "/packages/templating.js",
+      "sourceMap": "web.browser/packages/templating.js.map"
+    }
+  ]
+}

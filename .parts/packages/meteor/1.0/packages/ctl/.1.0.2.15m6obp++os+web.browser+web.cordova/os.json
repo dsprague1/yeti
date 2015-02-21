@@ -1,0 +1,42 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "main",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "ddp"
+    },
+    {
+      "package": "mongo"
+    },
+    {
+      "package": "ctl-helper"
+    },
+    {
+      "package": "application-configuration"
+    },
+    {
+      "package": "follower-livedata"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/ctl.js",
+      "length": 17672,
+      "offset": 0,
+      "servePath": "/packages/ctl.js",
+      "sourceMap": "os/packages/ctl.js.map"
+    }
+  ]
+}

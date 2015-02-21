@@ -1,0 +1,24 @@
+{
+  "isopack-1": {
+    "name": "html-tools",
+    "summary": "Standards-compliant HTML tools",
+    "version": "1.0.2+1c35a3aba1947c3930fe749535e858115ce0329d",
+    "earliestCompatibleVersion": "1.0.0",
+    "isTest": false,
+    "builds": [
+      {
+        "arch": "os",
+        "path": "os.json"
+      },
+      {
+        "arch": "web.browser",
+        "path": "web.browser.json"
+      },
+      {
+        "arch": "web.cordova",
+        "path": "web.cordova.json"
+      }
+    ],
+    "plugins": []
+  }
+}

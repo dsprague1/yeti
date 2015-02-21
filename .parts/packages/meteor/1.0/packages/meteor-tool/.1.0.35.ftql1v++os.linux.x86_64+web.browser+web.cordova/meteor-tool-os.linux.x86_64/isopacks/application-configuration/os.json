@@ -1,0 +1,43 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "AppConfig",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "logging"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "ddp"
+    },
+    {
+      "package": "ejson"
+    },
+    {
+      "package": "follower-livedata"
+    },
+    {
+      "package": "mongo",
+      "unordered": true
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/application-configuration.js",
+      "length": 19240,
+      "offset": 0,
+      "servePath": "/packages/application-configuration.js",
+      "sourceMap": "os/packages/application-configuration.js.map"
+    }
+  ]
+}

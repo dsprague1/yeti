@@ -1,0 +1,42 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "accounts-base"
+    },
+    {
+      "package": "srp"
+    },
+    {
+      "package": "sha"
+    },
+    {
+      "package": "check"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "ddp"
+    }
+  ],
+  "implies": [
+    {
+      "package": "accounts-base"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/accounts-password.js",
+      "length": 31518,
+      "offset": 0,
+      "servePath": "/packages/accounts-password.js",
+      "sourceMap": "web.browser/packages/accounts-password.js.map"
+    }
+  ]
+}

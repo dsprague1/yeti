@@ -1,0 +1,24 @@
+{
+  "isopack-1": {
+    "name": "constraint-solver",
+    "summary": "Given the set of the constraints, picks a satisfying configuration",
+    "version": "1.0.15+fe2b0c6c84cb6d858d10ae81b7e8d1b4d4be9513",
+    "earliestCompatibleVersion": "1.0.0",
+    "isTest": false,
+    "builds": [
+      {
+        "arch": "os",
+        "path": "os.json"
+      },
+      {
+        "arch": "web.browser",
+        "path": "web.browser.json"
+      },
+      {
+        "arch": "web.cordova",
+        "path": "web.cordova.json"
+      }
+    ],
+    "plugins": []
+  }
+}

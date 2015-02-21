@@ -1,0 +1,23 @@
+{
+  "name": "application-configuration",
+  "summary": "Interaction with the configuration sources for your apps",
+  "version": "1.0.3+47494fb6375f1b5497da9244407eb1e0198f3ba2",
+  "earliestCompatibleVersion": "1.0.0",
+  "isTest": false,
+  "plugins": [],
+  "unibuilds": [
+    {
+      "arch": "os",
+      "path": "os.json"
+    },
+    {
+      "arch": "web.browser",
+      "path": "web.browser.json"
+    },
+    {
+      "arch": "web.cordova",
+      "path": "web.cordova.json"
+    }
+  ],
+  "format": "unipackage-pre2"
+}

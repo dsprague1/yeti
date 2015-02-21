@@ -1,0 +1,24 @@
+{
+  "isopack-1": {
+    "name": "retry",
+    "summary": "Retry logic with exponential backoff",
+    "version": "1.0.1+fccbd2bc63cb35fa9f6db5ffb09bc061375deb07",
+    "earliestCompatibleVersion": "1.0.0",
+    "isTest": false,
+    "builds": [
+      {
+        "arch": "os",
+        "path": "os.json"
+      },
+      {
+        "arch": "web.browser",
+        "path": "web.browser.json"
+      },
+      {
+        "arch": "web.cordova",
+        "path": "web.cordova.json"
+      }
+    ],
+    "plugins": []
+  }
+}

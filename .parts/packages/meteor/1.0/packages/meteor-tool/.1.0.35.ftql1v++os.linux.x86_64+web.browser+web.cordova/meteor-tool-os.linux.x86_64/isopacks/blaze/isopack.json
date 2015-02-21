@@ -1,0 +1,24 @@
+{
+  "isopack-1": {
+    "name": "blaze",
+    "summary": "Meteor Reactive Templating library",
+    "version": "2.0.3+e1904c487f95da103619d14e6fd36002a2ad5a9e",
+    "earliestCompatibleVersion": "2.0.0",
+    "isTest": false,
+    "builds": [
+      {
+        "arch": "os",
+        "path": "os.json"
+      },
+      {
+        "arch": "web.browser",
+        "path": "web.browser.json"
+      },
+      {
+        "arch": "web.cordova",
+        "path": "web.cordova.json"
+      }
+    ],
+    "plugins": []
+  }
+}

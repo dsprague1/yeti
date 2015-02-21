@@ -1,0 +1,24 @@
+{
+  "isopack-1": {
+    "name": "ejson",
+    "summary": "Extended and Extensible JSON library",
+    "version": "1.0.4+15a251e053f38d85035fe1bd1b197f337aa07f83",
+    "earliestCompatibleVersion": "1.0.0",
+    "isTest": false,
+    "builds": [
+      {
+        "arch": "os",
+        "path": "os.json"
+      },
+      {
+        "arch": "web.browser",
+        "path": "web.browser.json"
+      },
+      {
+        "arch": "web.cordova",
+        "path": "web.cordova.json"
+      }
+    ],
+    "plugins": []
+  }
+}

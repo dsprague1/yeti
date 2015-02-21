@@ -1,0 +1,24 @@
+{
+  "isopack-1": {
+    "name": "random",
+    "summary": "Random number generator and utilities",
+    "version": "1.0.1+ea8331a38b58b2d92b010e91153eb8859461d5b1",
+    "earliestCompatibleVersion": "1.0.0",
+    "isTest": false,
+    "builds": [
+      {
+        "arch": "os",
+        "path": "os.json"
+      },
+      {
+        "arch": "web.browser",
+        "path": "web.browser.json"
+      },
+      {
+        "arch": "web.cordova",
+        "path": "web.cordova.json"
+      }
+    ],
+    "plugins": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "isopack-1": {
+    "name": "oauth",
+    "summary": "Common code for OAuth-based services",
+    "version": "1.1.2",
+    "earliestCompatibleVersion": "1.0.0",
+    "isTest": false,
+    "builds": [
+      {
+        "arch": "os",
+        "path": "os.json"
+      },
+      {
+        "arch": "web.browser",
+        "path": "web.browser.json"
+      },
+      {
+        "arch": "web.cordova",
+        "path": "web.cordova.json"
+      }
+    ],
+    "plugins": [],
+    "cordovaDependencies": {
+      "org.apache.cordova.inappbrowser": "0.5.1"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isopack-1": {
+    "name": "spacebars",
+    "summary": "Handlebars-like template language for Meteor",
+    "version": "1.0.3+37dbe15f832e6c762a2fdc62fc3a69c6827dcf74",
+    "earliestCompatibleVersion": "1.0.0",
+    "isTest": false,
+    "builds": [
+      {
+        "arch": "os",
+        "path": "os.json"
+      },
+      {
+        "arch": "web.browser",
+        "path": "web.browser.json"
+      },
+      {
+        "arch": "web.cordova",
+        "path": "web.cordova.json"
+      }
+    ],
+    "plugins": []
+  }
+}

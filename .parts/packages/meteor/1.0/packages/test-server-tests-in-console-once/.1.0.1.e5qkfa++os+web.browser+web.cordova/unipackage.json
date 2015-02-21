@@ -1,0 +1,23 @@
+{
+  "name": "test-server-tests-in-console-once",
+  "summary": "Run server tests noninteractively, with results going to the console.",
+  "version": "1.0.1",
+  "earliestCompatibleVersion": "1.0.0",
+  "isTest": false,
+  "plugins": [],
+  "unibuilds": [
+    {
+      "arch": "os",
+      "path": "os.json"
+    },
+    {
+      "arch": "web.browser",
+      "path": "web.browser.json"
+    },
+    {
+      "arch": "web.cordova",
+      "path": "web.cordova.json"
+    }
+  ],
+  "format": "unipackage-pre2"
+}

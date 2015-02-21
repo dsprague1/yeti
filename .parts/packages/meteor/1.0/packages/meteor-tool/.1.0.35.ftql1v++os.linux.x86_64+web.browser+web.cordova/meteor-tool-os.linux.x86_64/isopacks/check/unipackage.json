@@ -1,0 +1,23 @@
+{
+  "name": "check",
+  "summary": "Check whether a value matches a pattern",
+  "version": "1.0.2+ebec913b53fb3d5a2a36233f6745a016dca1ca6e",
+  "earliestCompatibleVersion": "1.0.0",
+  "isTest": false,
+  "plugins": [],
+  "unibuilds": [
+    {
+      "arch": "os",
+      "path": "os.json"
+    },
+    {
+      "arch": "web.browser",
+      "path": "web.browser.json"
+    },
+    {
+      "arch": "web.cordova",
+      "path": "web.cordova.json"
+    }
+  ],
+  "format": "unipackage-pre2"
+}

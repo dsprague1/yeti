@@ -1,0 +1,23 @@
+{
+  "name": "xmlbuilder",
+  "summary": "An XML builder for node.js similar to java-xmlbuilder.",
+  "version": "2.4.4",
+  "earliestCompatibleVersion": "2.0.0",
+  "isTest": false,
+  "plugins": [],
+  "unibuilds": [
+    {
+      "arch": "os",
+      "path": "os.json"
+    },
+    {
+      "arch": "web.browser",
+      "path": "web.browser.json"
+    },
+    {
+      "arch": "web.cordova",
+      "path": "web.cordova.json"
+    }
+  ],
+  "format": "unipackage-pre2"
+}

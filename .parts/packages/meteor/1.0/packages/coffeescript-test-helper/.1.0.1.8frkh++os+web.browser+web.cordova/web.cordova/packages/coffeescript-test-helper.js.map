@@ -1,0 +1,1 @@
+{"version":3,"file":"/packages/coffeescript-test-helper.js","sources":["coffeescript-test-helper/exporting.coffee"],"names":[],"mappings":";;;;;;;;;AAAA;;wBAAwB,GAAxB;A","sourcesContent":["COFFEESCRIPT_EXPORTED = 123\n"]}
